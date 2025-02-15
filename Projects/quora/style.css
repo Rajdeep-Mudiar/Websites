@@ -1,0 +1,25 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1,
+h3 {
+  color: #b92b27;
+}
+
+#login {
+  background-color: #f2f2f2;
+}
+#signup {
+  color: #b92b27;
+}
+button {
+  margin-right: 10px;
+}
+.upvote {
+  background-color: green;
+  color: white;
+}
+.upvote + button {
+  background-color: cornflowerblue;
+}
