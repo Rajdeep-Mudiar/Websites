@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #d56f3e;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #333;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+span {
+  color: #9d6f24;
+}
+
+#pets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+h3 {
+  color: #3c787e;
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  #pets {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
